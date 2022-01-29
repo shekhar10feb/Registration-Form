@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    height: auto;
+    background-color: #05444d; 
+    font: 1em/1.5 sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1{
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+    color: rgba(222, 231, 238, 0.582);
+    text-align: center;
+    margin: 2%;
+  }
+  
+  form{
+    position: relative;
+    margin: 0 auto;
+    width: 40vw;
+    color: steelblue;
+    padding: 1%;
+    border: 2px solid rgba(222, 231, 238, 0.582);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .inputClass {
+    position: relative;
+    margin: 15px auto;
+    padding: 1.5%;
+    font-size: 1.5vw;
+    display: block;
+    margin-bottom: 1%;
+    width: 68%;
+    background: #FAF6D9;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  div{
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    background: transparent;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+  
+  input[type="radio"]{
+    width: 3vw;
+    height: 1em;
+    border: none;
+  }
+  
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+  
+  label:first-child {
+    margin-right: 8%;
+  }
+  
+  button {
+    width: 68%;
+    padding: 2%;
+    border: none;
+    background-color: rgb(15, 110, 206);
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: rgb(15, 110, 206);
+  }
+  
+  input:focus{
+    background-color: white;
+  }
